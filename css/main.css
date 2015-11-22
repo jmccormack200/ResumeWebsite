@@ -18,13 +18,29 @@ body, html
 	text-align: center;
 }
 
-.h5
-{
-	text-transform: uppercase;
-	background-color: #f5f5f5;
-	padding: 10px;
-	color: #333333;
-	display: inline-block;
-	font-size: 1.2rem;
+
+
+.top-bar{
+    background: #3f51b5 none repeat scroll 0 0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    float: left;
+    height: 200px;
+    width: 100%;
+}
+
+.resume{
+	padding: 30px;
+	text-align: justify;
+}
+
+.tag-line{
 	text-align: center;
+}
+
+.tiny{
+	color:blue;
+}
+
+.sidebar{
+	color:grey;
 }
