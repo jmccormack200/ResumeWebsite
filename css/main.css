@@ -44,3 +44,7 @@ body, html
 .sidebar{
 	color:grey;
 }
+
+.container{
+	margin-top:50px;
+}
