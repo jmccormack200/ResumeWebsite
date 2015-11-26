@@ -13,11 +13,16 @@ body, html
 
 .h1
 {
-	font-weight: 900;
+	height: 100px;
 	text-transform: uppercase;
 	text-align: center;
+	width:100%;
 }
 
+.h4
+{
+	text-align: center;
+}
 
 
 .top-bar{
