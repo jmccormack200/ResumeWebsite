@@ -1,0 +1,248 @@
+  <DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" media="all">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="all"/>
+	  <link type="text/css" rel="stylesheet" href="css/main.css" media="all">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" media="all">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+	<div class="top-bar red darken-2">
+    <div class="container resume white z-depth-1">
+      <div class ="row">
+        <div class="sidebar col s12 m4 l4">
+           <img src="img/quebeccity.jpg" alt="" class="circle responsive-img">
+		      	<h4 class="fullname grey-text text-darken-2">J.D. McCormack</h4>
+		      	<h5 class="tag-line grey lighten-4 grey-text text-darken-1">Fuller Stack Engineer</h5>
+          <hr>
+          <h5 class="aboutme"><i class="material-icons">assignment_ind</i>About Me</h5>
+            <p>I'm an Analog Engineer that decided to pursue the digital world. 
+              Currently, I am a Computer Engineering graduate student in Florida Polytechnic University's Inaugural Class.
+              My research has allowed me to pursue web development through Internet of Things Projects.
+              I have also continued to learn about hardware through wireless sensor networks and
+              software defined radio research.
+              <br><br>
+              Our research has allowed me to do a lot of hands on
+              hacking with Unity3D to do more than just create games. 
+              I have a love for robotics. Being in its second year of operation,
+              Florida Polytechnic has a "start up" culture to it where everyone wears multiple hats. This has allowed
+              me to pursue a number of topics while I'm here. I am currently seeking opportunities for when I graduate
+              in May 2016. 
+            </p>
+          <h5 class="contact"><i class="material-icons">contact_phone</i>  Contact Me</h5>
+          <i class="tiny material-icons">home</i>  From: Everett, MA <br>
+          <i class="tiny material-icons">explore</i>  Living in: Lakeland, FL <br>
+          <i class="tiny material-icons">ring_volume</i>  617-257-5586 <br>
+          <i class="tiny material-icons">mail_outline</i>  mccormack.wgsi@gmail.com <br>
+          <i class="tiny material-icons">cloud_circle</i>  jdmccormack.com <br>
+          <i class="tiny material-icons">laptop_chromebook</i>  github.com/jmccormack200 <br>
+          <hr>
+          <h5><i class="material-icons">music_video</i>  Interests</h5>
+          I play piano, drums, marimba, and ukulele.
+          I have recently purchased a banjo and I 
+          absolutely love the instrument. 
+
+          I also enjoy cinematography and video production.
+          All in all I love my field and often find 
+          learning a new language just as relaxing as 
+          watching a movie.
+        </div>
+        <div class="col s12 m8 l8">
+          <table class="striped centered">
+            <thead>
+              <tr>
+                <th data-field="language"> <i class="material-icons">memory</i>  Languages </th>
+                <th data-field="software"> <i class="material-icons">keyboard</i>  Software </th>
+                <th data-field="hardware"> <i class="material-icons">developer_board</i>  Hardware</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>C</td>
+                <td>Linux</td>
+                <td>Software Defined Radio</td>
+              </tr>
+              <tr>
+                <td>C#</td>
+                <td>Unity3D</td>
+                <td>Atmel Micros</td>
+              </tr>
+              <tr>
+                <td>Javascript</td>
+                <td>Git</td>
+                <td>TI Micros</td>
+              </tr>
+              <tr>
+                <td>Python</td>
+                <td>GNU Radio Companion</td>
+                <td>Arm Micros</td>
+              </tr>
+              <tr>
+                <td>Assembly</td>
+                <td>OpenWRT</td>
+                <td>Surface Mount Soldering</td>
+              </tr>
+              <tr>
+                <td>Verilog</td>
+                <td>NodeJs</td>
+                <td>Oscilloscopes</td>
+              </tr>
+              <tr>
+                <td>Java</td>
+                <td>Vagrant</td>
+                <td>Spectrum Analyzers</td>
+              </tr>
+              <tr>
+                <td>HTML 5 and CSS</td>
+                <td>Virtual Box</td>
+                <td>Logic Analyzers</td>
+              </tr>
+              <tr>
+                <td>Erlang</td>
+                <td>MongoDB</td>
+                <td>I2C/SPI/UART</td>
+              </tr>
+              <tr>
+                <td>Elixir</td>
+                <td>Flask</td>
+                <td>EagleCAD</td>
+              </tr>
+              <tr>
+                <td>Cobol</td>
+                <td>PostgreSQL</td>
+                <td>Multisim</td>
+              </tr>
+              <tr>
+                <td>MATLAB</td>
+                <td>SQLite</td>
+                <td>ADC/DAC</td>
+              </tr>
+              <tr>
+                <td>Learning - C++</td>
+                <td>Materialize</td>
+                <td>3D Printing</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h4 class="black-text"><i class="material-icons">work</i>  Work Experience</h4>
+          <h5 class="black-text">Research Assistant</h5>                        
+            <i class="tiny material-icons">place</i>  Florida Polytechnic University 
+            <i class="tiny material-icons">event</i>  2014-Present
+            <br><br>
+			As a graduate research assistant I get to work with all sorts of cutting edge 
+			equipment. My research centers around visualizing and controlling a cognitive 
+			radio based wireless sensor network in Unity3D. I am working as part of a small 
+			team and get to work on all aspects of the project. I am working on using 
+			GNURadio and USRP Software Defined Radios to establish the network. 
+			Once this is completed, I will pivot and work on controlling and 
+			visualizing the radios in Unity3D. 
+            <br><br>
+            I have also developed an open source driver in python to communicate 
+            with the Robopeak LIDAR and worked with the Unity3D game engine to 
+            visualize the LIDAR point cloud. As Florida Polytechnic is a small 
+            school, I have also helped in establishing the VTC Lab and Electronics 
+            shop. I have helped generate proposals and purchased equipment in order to
+            give other students the necessary tools and equipment they need to continue 
+            research and coursework. I also contributed to a proposal development for a 
+            Protothon lab event, funded 2015. 
+            <br><br>
+
+          <h5 class="black-text">Teaching Assistant</h5>                        
+            <i class="tiny material-icons">place</i>  Florida Polytechnic University 
+            <i class="tiny material-icons">event</i>  2014-Present
+            <br><br>
+            Since joining Florida Polytechnic I've had the opportunity to help 
+            prepare quizzes, exams, lectures, and homework assignments in 
+            conjunction with the instructor. I have helped coordinate and acted as
+            a mentor at multiple hardware based hackathon type events we dubbed 
+            "protothons". I have lead numerous recitations. I have had 
+            the opportunity to help with Circuits I, Circuits I Lab, 
+            Intro to Engineering, Intro to Engineering Design, and  
+            Intro to Programming. I have also helped with the 
+            school's diversity club.
+            <br><br> 
+          <h5 class="black-text">Engineer</h5>
+            <i class="tiny material-icons">place</i>  Tivoli Audio, LLC 
+            <i class="tiny material-icons">event</i>  2012-2014
+            <br><br>
+            Tivoli Audio is an amazing consumer electronics company located
+            in Boston, MA. Though Tivoli has been around for awhile,
+            they are a small company with a start-up style culture. 
+            I got my hands on all aspects of the design from ideation, to
+            final assembly. I participated in the development of over
+            10 new products in my time there. I prototyped many of the products and
+            I created BOM's and ECR reports to assist in the transition from
+            prototype to production ready product. I spent about 15% of my time
+            there in China helping to address manufacturing issues. I 
+            generated both analog and digital designs for the products. Though 
+            my background at the time was mostly analog, this was where 
+            I began to become more interested in microcontrollers and 
+            the "Internet of Things". This curiosity ultimately lead
+            me to leave the company to attend graduate school. 
+            <br><br>
+
+          <h5 class="black-text">Intern</h5>
+            <i class="tiny material-icons">place</i>  MITRE Corporation 
+            <i class="tiny material-icons">event</i>  Summer 2011
+            <br><br>
+            As an intern for the Theater Deployable Communications branch of MITRE
+            my research focused on how software based VoIP phones could be 
+            integrated into the current Air Force infrastructure. My work
+            allowed me to utilize  Wireshark, Backtrack 5 (now Kali),
+            Cisco switches, and other network testing equipment. I learned a lot
+            about security and got to work on Hanscom Airforce Base. My work culminated
+            in the publication of a white paper and a presentation at a MITRE technical
+            exchange meeting with various members of the United States Armed Forces
+            ranking as high as Colonel. 
+            <br><br>
+          <div class="education">
+            <h4 class="black-text"><i class="material-icons">school</i>  Education</h4>
+            <div class="row">
+              <div class="col s12 m4 l4">
+                <b>Florida Polytechnic University</b> <br>
+                Inaugural Class <br>
+                Masters of Engineering <br>
+                4.0 GPA <br>
+                Anticipated Graduation May 2016 <br>
+              </div>
+              <div class="col s12 m4 l4">
+                <b>University of California Irvine</b><br> 
+                Certificate in Embedded Systems Engineering<br> 
+                3.7 GPA <br>
+                Graduate September 2014 <br>
+              </div>
+              <div class="col s12 m4 l4">
+                <b>UMASS Lowell </b><br>
+                B.S. Electrical Engineering with Honors <br>
+                Minor in Sound Recording Technology <br>
+                Graduated Magna Cum Laude, </br>
+                May 2012<br>
+              </div>
+            </div>
+          </div>
+          <div class="publications">
+            <h4><i class="material-icons">local_library</i>Publications</h4>
+              McCormack, J. ; Prine, J. ; Trowbridge, B. ;  Rodriguez, A. ; and Integlia, R. ;   
+              2D LIDAR as a Distributed Interaction Tool for Virtual and Augmented Reality  
+              Video Games IEEE-Gem Conference, October 2015. 
+              <br><br> 
+              Trowbridge, B. ; Prine, J. ;  Rodriguez, A. ; McCormack, J. ; and Integlia, R. ;
+              Game Motivating Exercise IEEE-Gem Conference, October 2015.
+              <br><br>
+        </div>
+      </div>
+    </div>
+	</div>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+    </body>
+  </html>
