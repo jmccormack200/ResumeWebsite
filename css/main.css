@@ -53,3 +53,9 @@ body, html
 .container{
 	margin-top:50px;
 }
+
+.btn{
+	width:40%;
+	text-align: center;
+}
+
